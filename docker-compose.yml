@@ -1,0 +1,8 @@
+services:
+  app:
+    image: sarahchaser/cc_app:latest
+    ports:
+      - "8501:8501"  # Streamlit
+      - "8888:8888"  # JupyterLab
+    volumes:
+      - .:/home/jovyan/work
