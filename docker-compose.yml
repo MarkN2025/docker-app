@@ -5,4 +5,4 @@ services:
       - "8501:8501"  # Streamlit
       - "8888:8888"  # JupyterLab
     volumes:
-      - .:/home/jovyan/work
+      - ./work:/home/jovyan/work
