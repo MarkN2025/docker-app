@@ -6,3 +6,4 @@ services:
       - "8888:8888"  # JupyterLab
     volumes:
       - ./work:/home/jovyan/work
+    command: start.sh jupyter lab
