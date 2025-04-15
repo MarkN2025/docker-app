@@ -9,5 +9,5 @@ else
 fi
 
 # Start JupyterLab
-start.sh jupyter lab --NotebookApp.token='' --NotebookApp.password=''
+start.sh jupyter lab
 
